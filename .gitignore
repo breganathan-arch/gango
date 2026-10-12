@@ -1,0 +1,41 @@
+# Operating system and editor leftovers
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local configuration and credentials; keep safe example files trackable
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local logs and temporary files
+*.log
+*.tmp
+.cache/
+tmp/
+
+# Common Python dependencies and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Common JavaScript dependencies and generated files
+node_modules/
+dist/
+build/
+coverage/
+.next/
